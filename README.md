@@ -14,7 +14,7 @@ Downloads and sorts cultural information from Argentina's public database
 
 `python3 -m venv example_venv`
 
-2. Making sure the path in your terminal is the root folder of the virtual environment, clone the repository with the following command:
+2. Change folder to the newly created virtual environment with `cd your-venv-name`, clone the repository with the following command:
 
 `git clone https://github.com/DJMaidana/DB-processing-with-Python`
 
