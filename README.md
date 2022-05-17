@@ -5,8 +5,9 @@ Downloads and sorts cultural information from Argentina's public database
 - Python 3.8
 - Python-decouple
 - Pandas
-- Psycopg2
+- Psycopg2-binary
 - Sqlalchemy
+- Requests
 
 ## Installation
 
