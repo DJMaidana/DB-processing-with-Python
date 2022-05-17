@@ -1,5 +1,6 @@
-python 3.8
 python-decouple
 pandas
 psycopg2
+psycopg2-binary
 sqlalchemy
+requests
