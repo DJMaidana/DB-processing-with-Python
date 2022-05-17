@@ -1,5 +1,12 @@
 # DB-processing-with-Python
 Downloads and sorts cultural information from Argentina's public database
+## Requirements
+
+- Python 3.8
+- Python-decouple
+- Pandas
+- Psycopg2
+- Sqlalchemy
 
 ## Installation
 
@@ -15,10 +22,20 @@ Downloads and sorts cultural information from Argentina's public database
 
 `source bin/activate`
 
-4. Install the required dependencies:
+4. Change folder with `cd DB-processing-with-Python` and install the required dependencies with:
 
 `pip install -r requirements.txt`
  
-5. Run the program:
+5. Make sure your PostgreSQL Database configuration is correct, use the settings.ini file to set up the connection. The following are the default values:
+
+```
+POSTGRES_DB_NAME = alkemychallenge
+POSTGRES_USER_NAME = postgres
+POSTGRES_PASSWORD = postgres
+POSTGRES_HOST = localhost
+POSTGRES_PORT = 5432
+```
+
+6. Run the program:
 
 `python3 main.py`
