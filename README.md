@@ -3,6 +3,7 @@ Downloads and sorts cultural information from Argentina's public database
 ## Requirements
 
 - Python 3.8
+- PostgreSQL
 - Python-decouple
 - Pandas
 - Psycopg2-binary
